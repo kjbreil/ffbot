@@ -30,6 +30,6 @@ func main() {
 			log.Fatal(err)
 		}
 		// hold me
-		fantasy.Holder(text)
+		fmt.Println(fantasy.Holder(text))
 	}
 }
